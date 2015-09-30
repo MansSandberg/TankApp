@@ -7,11 +7,32 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		8D20C3C11A82519100932348 /* CoreText.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8D20C3C01A82519100932348 /* CoreText.framework */; };
+		8D4B72971A7EB99D00936C54 /* 44TabBar.png in Resources */ = {isa = PBXBuildFile; fileRef = 8D4B72961A7EB99D00936C54 /* 44TabBar.png */; };
+		8D57F4ED1A7EBC3200D35E08 /* 180.png in Resources */ = {isa = PBXBuildFile; fileRef = 8D57F4EC1A7EBC3200D35E08 /* 180.png */; };
+		8D5B74CF1A6A71BE000CCA4B /* literViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8D5B74CE1A6A71BE000CCA4B /* literViewController.swift */; };
+		8DA81D7E1A680E120048DFEA /* 300.png in Resources */ = {isa = PBXBuildFile; fileRef = 8DA81D7D1A680E120048DFEA /* 300.png */; };
 		8DBBE8D61A629F46001418DB /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8DBBE8D51A629F46001418DB /* AppDelegate.swift */; };
 		8DBBE8D91A629F46001418DB /* TankApp.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 8DBBE8D71A629F46001418DB /* TankApp.xcdatamodeld */; };
 		8DBBE8DB1A629F46001418DB /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8DBBE8DA1A629F46001418DB /* Images.xcassets */; };
 		8DBBE8DE1A629F46001418DB /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 8DBBE8DC1A629F46001418DB /* LaunchScreen.xib */; };
 		8DBBE8EA1A629F46001418DB /* TankAppTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8DBBE8E91A629F46001418DB /* TankAppTests.swift */; };
+		8DBBE8F41A629FD8001418DB /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8DBBE8F31A629FD8001418DB /* Main.storyboard */; };
+		8DBBE8F71A62A22A001418DB /* tankningarTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8DBBE8F61A62A22A001418DB /* tankningarTableViewController.swift */; };
+		8DBBE8F91A62A264001418DB /* nyTankningViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8DBBE8F81A62A264001418DB /* nyTankningViewController.swift */; };
+		8DBBE8FB1A62A298001418DB /* Model.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8DBBE8FA1A62A298001418DB /* Model.swift */; };
+		8DBF67E51A66E57D00A1CE1F /* iAd.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8DBF67E41A66E57D00A1CE1F /* iAd.framework */; };
+		8DBF67E71A66E58B00A1CE1F /* AdSupport.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8DBF67E61A66E58B00A1CE1F /* AdSupport.framework */; };
+		8DBF67EB1A66F7BE00A1CE1F /* 80.png in Resources */ = {isa = PBXBuildFile; fileRef = 8DBF67E81A66F7BE00A1CE1F /* 80.png */; };
+		8DBF67EC1A66F7BE00A1CE1F /* 120.png in Resources */ = {isa = PBXBuildFile; fileRef = 8DBF67E91A66F7BE00A1CE1F /* 120.png */; };
+		8DBF67ED1A66F7BE00A1CE1F /* 1024.png in Resources */ = {isa = PBXBuildFile; fileRef = 8DBF67EA1A66F7BE00A1CE1F /* 1024.png */; };
+		8DBF67F21A66F7C700A1CE1F /* 44.png in Resources */ = {isa = PBXBuildFile; fileRef = 8DBF67EE1A66F7C700A1CE1F /* 44.png */; };
+		8DBF67F31A66F7C700A1CE1F /* 50.png in Resources */ = {isa = PBXBuildFile; fileRef = 8DBF67EF1A66F7C700A1CE1F /* 50.png */; };
+		8DBF67F41A66F7C700A1CE1F /* 57.png in Resources */ = {isa = PBXBuildFile; fileRef = 8DBF67F01A66F7C700A1CE1F /* 57.png */; };
+		8DBF67F51A66F7C700A1CE1F /* 58.png in Resources */ = {isa = PBXBuildFile; fileRef = 8DBF67F11A66F7C700A1CE1F /* 58.png */; };
+		8DCEFAEB1A85CEDB00BA8B6B /* 640x960.png in Resources */ = {isa = PBXBuildFile; fileRef = 8DCEFAE91A85CEDB00BA8B6B /* 640x960.png */; };
+		8DCEFAEC1A85CEDB00BA8B6B /* 640x1136.png in Resources */ = {isa = PBXBuildFile; fileRef = 8DCEFAEA1A85CEDB00BA8B6B /* 640x1136.png */; };
+		8DEA8E191A6C3B9B0082C078 /* TankappSvart44.png in Resources */ = {isa = PBXBuildFile; fileRef = 8DEA8E181A6C3B9B0082C078 /* TankappSvart44.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -25,6 +46,11 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		8D20C3C01A82519100932348 /* CoreText.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreText.framework; path = System/Library/Frameworks/CoreText.framework; sourceTree = SDKROOT; };
+		8D4B72961A7EB99D00936C54 /* 44TabBar.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 44TabBar.png; sourceTree = "<group>"; };
+		8D57F4EC1A7EBC3200D35E08 /* 180.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 180.png; sourceTree = "<group>"; };
+		8D5B74CE1A6A71BE000CCA4B /* literViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = literViewController.swift; sourceTree = "<group>"; };
+		8DA81D7D1A680E120048DFEA /* 300.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 300.png; sourceTree = "<group>"; };
 		8DBBE8D01A629F46001418DB /* TankApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TankApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		8DBBE8D41A629F46001418DB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		8DBBE8D51A629F46001418DB /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -34,6 +60,23 @@
 		8DBBE8E31A629F46001418DB /* TankAppTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TankAppTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		8DBBE8E81A629F46001418DB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		8DBBE8E91A629F46001418DB /* TankAppTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TankAppTests.swift; sourceTree = "<group>"; };
+		8DBBE8F31A629FD8001418DB /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
+		8DBBE8F51A62A035001418DB /* sv */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = sv; path = sv.lproj/LaunchScreen.strings; sourceTree = "<group>"; };
+		8DBBE8F61A62A22A001418DB /* tankningarTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = tankningarTableViewController.swift; sourceTree = "<group>"; };
+		8DBBE8F81A62A264001418DB /* nyTankningViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = nyTankningViewController.swift; sourceTree = "<group>"; };
+		8DBBE8FA1A62A298001418DB /* Model.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Model.swift; sourceTree = "<group>"; };
+		8DBF67E41A66E57D00A1CE1F /* iAd.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = iAd.framework; path = System/Library/Frameworks/iAd.framework; sourceTree = SDKROOT; };
+		8DBF67E61A66E58B00A1CE1F /* AdSupport.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AdSupport.framework; path = System/Library/Frameworks/AdSupport.framework; sourceTree = SDKROOT; };
+		8DBF67E81A66F7BE00A1CE1F /* 80.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 80.png; sourceTree = "<group>"; };
+		8DBF67E91A66F7BE00A1CE1F /* 120.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 120.png; sourceTree = "<group>"; };
+		8DBF67EA1A66F7BE00A1CE1F /* 1024.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 1024.png; sourceTree = "<group>"; };
+		8DBF67EE1A66F7C700A1CE1F /* 44.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 44.png; sourceTree = "<group>"; };
+		8DBF67EF1A66F7C700A1CE1F /* 50.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 50.png; sourceTree = "<group>"; };
+		8DBF67F01A66F7C700A1CE1F /* 57.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 57.png; sourceTree = "<group>"; };
+		8DBF67F11A66F7C700A1CE1F /* 58.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 58.png; sourceTree = "<group>"; };
+		8DCEFAE91A85CEDB00BA8B6B /* 640x960.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 640x960.png; sourceTree = "<group>"; };
+		8DCEFAEA1A85CEDB00BA8B6B /* 640x1136.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 640x1136.png; sourceTree = "<group>"; };
+		8DEA8E181A6C3B9B0082C078 /* TankappSvart44.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = TankappSvart44.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -41,6 +84,9 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8D20C3C11A82519100932348 /* CoreText.framework in Frameworks */,
+				8DBF67E71A66E58B00A1CE1F /* AdSupport.framework in Frameworks */,
+				8DBF67E51A66E57D00A1CE1F /* iAd.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -57,6 +103,9 @@
 		8DBBE8C71A629F46001418DB = {
 			isa = PBXGroup;
 			children = (
+				8D20C3C01A82519100932348 /* CoreText.framework */,
+				8DBF67E61A66E58B00A1CE1F /* AdSupport.framework */,
+				8DBF67E41A66E57D00A1CE1F /* iAd.framework */,
 				8DBBE8D21A629F46001418DB /* TankApp */,
 				8DBBE8E61A629F46001418DB /* TankAppTests */,
 				8DBBE8D11A629F46001418DB /* Products */,
@@ -76,6 +125,11 @@
 			isa = PBXGroup;
 			children = (
 				8DBBE8D51A629F46001418DB /* AppDelegate.swift */,
+				8DBBE8F31A629FD8001418DB /* Main.storyboard */,
+				8DBBE8F61A62A22A001418DB /* tankningarTableViewController.swift */,
+				8DBBE8F81A62A264001418DB /* nyTankningViewController.swift */,
+				8DBBE8FA1A62A298001418DB /* Model.swift */,
+				8D5B74CE1A6A71BE000CCA4B /* literViewController.swift */,
 				8DBBE8DA1A629F46001418DB /* Images.xcassets */,
 				8DBBE8DC1A629F46001418DB /* LaunchScreen.xib */,
 				8DBBE8D71A629F46001418DB /* TankApp.xcdatamodeld */,
@@ -87,6 +141,19 @@
 		8DBBE8D31A629F46001418DB /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				8DCEFAE91A85CEDB00BA8B6B /* 640x960.png */,
+				8DCEFAEA1A85CEDB00BA8B6B /* 640x1136.png */,
+				8D4B72961A7EB99D00936C54 /* 44TabBar.png */,
+				8DEA8E181A6C3B9B0082C078 /* TankappSvart44.png */,
+				8DBF67EE1A66F7C700A1CE1F /* 44.png */,
+				8DBF67EF1A66F7C700A1CE1F /* 50.png */,
+				8DBF67F01A66F7C700A1CE1F /* 57.png */,
+				8DBF67F11A66F7C700A1CE1F /* 58.png */,
+				8DBF67E81A66F7BE00A1CE1F /* 80.png */,
+				8DBF67E91A66F7BE00A1CE1F /* 120.png */,
+				8D57F4EC1A7EBC3200D35E08 /* 180.png */,
+				8DA81D7D1A680E120048DFEA /* 300.png */,
+				8DBF67EA1A66F7BE00A1CE1F /* 1024.png */,
 				8DBBE8D41A629F46001418DB /* Info.plist */,
 			);
 			name = "Supporting Files";
@@ -158,6 +225,7 @@
 				TargetAttributes = {
 					8DBBE8CF1A629F46001418DB = {
 						CreatedOnToolsVersion = 6.2;
+						DevelopmentTeam = 5DH2R7TV5M;
 					};
 					8DBBE8E21A629F46001418DB = {
 						CreatedOnToolsVersion = 6.2;
@@ -189,8 +257,22 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8DBF67F51A66F7C700A1CE1F /* 58.png in Resources */,
+				8DBF67F21A66F7C700A1CE1F /* 44.png in Resources */,
+				8DBF67ED1A66F7BE00A1CE1F /* 1024.png in Resources */,
+				8DBBE8F41A629FD8001418DB /* Main.storyboard in Resources */,
+				8DEA8E191A6C3B9B0082C078 /* TankappSvart44.png in Resources */,
+				8DCEFAEC1A85CEDB00BA8B6B /* 640x1136.png in Resources */,
+				8D4B72971A7EB99D00936C54 /* 44TabBar.png in Resources */,
+				8DBF67EB1A66F7BE00A1CE1F /* 80.png in Resources */,
+				8DA81D7E1A680E120048DFEA /* 300.png in Resources */,
+				8DBF67EC1A66F7BE00A1CE1F /* 120.png in Resources */,
+				8D57F4ED1A7EBC3200D35E08 /* 180.png in Resources */,
+				8DBF67F41A66F7C700A1CE1F /* 57.png in Resources */,
 				8DBBE8DE1A629F46001418DB /* LaunchScreen.xib in Resources */,
+				8DBF67F31A66F7C700A1CE1F /* 50.png in Resources */,
 				8DBBE8DB1A629F46001418DB /* Images.xcassets in Resources */,
+				8DCEFAEB1A85CEDB00BA8B6B /* 640x960.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -208,8 +290,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8DBBE8FB1A62A298001418DB /* Model.swift in Sources */,
 				8DBBE8D61A629F46001418DB /* AppDelegate.swift in Sources */,
+				8DBBE8F71A62A22A001418DB /* tankningarTableViewController.swift in Sources */,
+				8DBBE8F91A62A264001418DB /* nyTankningViewController.swift in Sources */,
 				8DBBE8D91A629F46001418DB /* TankApp.xcdatamodeld in Sources */,
+				8D5B74CF1A6A71BE000CCA4B /* literViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -236,6 +322,7 @@
 			isa = PBXVariantGroup;
 			children = (
 				8DBBE8DD1A629F46001418DB /* Base */,
+				8DBBE8F51A62A035001418DB /* sv */,
 			);
 			name = LaunchScreen.xib;
 			sourceTree = "<group>";
@@ -277,7 +364,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 8.2;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
 				MTL_ENABLE_DEBUG_INFO = YES;
 				ONLY_ACTIVE_ARCH = YES;
 				SDKROOT = iphoneos;
@@ -313,7 +400,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 8.2;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				SDKROOT = iphoneos;
 				VALIDATE_PRODUCT = YES;
@@ -324,9 +411,14 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = "LaunchImage-2";
+				CODE_SIGN_IDENTITY = "iPhone Distribution";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer: Johan Sandberg (55TV5P43EV)";
 				INFOPLIST_FILE = TankApp/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
 			};
 			name = Debug;
 		};
@@ -334,9 +426,14 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = "LaunchImage-2";
+				CODE_SIGN_IDENTITY = "iPhone Distribution";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Distribution";
 				INFOPLIST_FILE = TankApp/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
 			};
 			name = Release;
 		};
@@ -393,6 +490,7 @@
 				8DBBE8EF1A629F46001418DB /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		8DBBE8F01A629F46001418DB /* Build configuration list for PBXNativeTarget "TankAppTests" */ = {
 			isa = XCConfigurationList;
@@ -401,6 +499,7 @@
 				8DBBE8F21A629F46001418DB /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 

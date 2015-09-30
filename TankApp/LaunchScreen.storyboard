@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="6254" systemVersion="14C109" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES">
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="6247"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="1fV-YC-1nx">
+            <objects>
+                <viewController id="Ssf-qf-UKN" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="5VU-NK-IUg"/>
+                        <viewControllerLayoutGuide type="bottom" id="q4u-Ui-DiR"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="FUW-MF-fyl">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" text="TankApp" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="XL3-0p-UNe">
+                                <rect key="frame" x="103" y="28" width="115" height="36"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="30"/>
+                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" image="120.png" translatesAutoresizingMaskIntoConstraints="NO" id="XDa-go-RY9">
+                                <rect key="frame" x="100" y="72" width="120" height="120"/>
+                            </imageView>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstAttribute="centerX" secondItem="XL3-0p-UNe" secondAttribute="centerX" constant="-0.5" id="LnT-jc-i5m"/>
+                            <constraint firstItem="XL3-0p-UNe" firstAttribute="top" secondItem="5VU-NK-IUg" secondAttribute="bottom" constant="8" symbolic="YES" id="S28-eV-W8F"/>
+                            <constraint firstAttribute="centerX" secondItem="XDa-go-RY9" secondAttribute="centerX" id="V0D-I2-klH"/>
+                            <constraint firstItem="XDa-go-RY9" firstAttribute="top" secondItem="XL3-0p-UNe" secondAttribute="bottom" constant="8" symbolic="YES" id="a65-j5-hbZ"/>
+                            <constraint firstItem="q4u-Ui-DiR" firstAttribute="top" secondItem="XL3-0p-UNe" secondAttribute="bottom" constant="8" symbolic="YES" id="hMV-mh-vY2"/>
+                        </constraints>
+                    </view>
+                    <simulatedScreenMetrics key="simulatedDestinationMetrics" type="retina4"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="O0h-8F-ULy" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="350" y="287"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="120.png" width="120" height="120"/>
+    </resources>
+</document>
